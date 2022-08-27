@@ -1,6 +1,6 @@
 ---
 - name: playbook for installing docker
-  host: localhost
+  hosts: localhost
   tasks:
     - name: install docker
       shell: 
