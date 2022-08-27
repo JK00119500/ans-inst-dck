@@ -1,0 +1,7 @@
+---
+- name: playbook for installing docker
+  host: localhost
+  tasks:
+    - name: install docker
+      shell: 
+        cmd: chmod +x dck-inst.sh && bash dck-inst.sh
